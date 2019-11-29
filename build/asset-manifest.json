@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Nmusavi/AbschlussProjekt.git/static/css/main.1a332369.chunk.css",
+    "main.js": "/Nmusavi/AbschlussProjekt.git/static/js/main.2909240e.chunk.js",
+    "main.js.map": "/Nmusavi/AbschlussProjekt.git/static/js/main.2909240e.chunk.js.map",
+    "runtime-main.js": "/Nmusavi/AbschlussProjekt.git/static/js/runtime-main.43b379d9.js",
+    "runtime-main.js.map": "/Nmusavi/AbschlussProjekt.git/static/js/runtime-main.43b379d9.js.map",
+    "static/js/2.ae22b6c5.chunk.js": "/Nmusavi/AbschlussProjekt.git/static/js/2.ae22b6c5.chunk.js",
+    "static/js/2.ae22b6c5.chunk.js.map": "/Nmusavi/AbschlussProjekt.git/static/js/2.ae22b6c5.chunk.js.map",
+    "index.html": "/Nmusavi/AbschlussProjekt.git/index.html",
+    "precache-manifest.a5802e375b8f4da5999c9a46854e4b38.js": "/Nmusavi/AbschlussProjekt.git/precache-manifest.a5802e375b8f4da5999c9a46854e4b38.js",
+    "service-worker.js": "/Nmusavi/AbschlussProjekt.git/service-worker.js",
+    "static/css/main.1a332369.chunk.css.map": "/Nmusavi/AbschlussProjekt.git/static/css/main.1a332369.chunk.css.map",
+    "static/media/App.css": "/Nmusavi/AbschlussProjekt.git/static/media/Login_Background.d157c2d6.png",
+    "static/media/Main_Background.png": "/Nmusavi/AbschlussProjekt.git/static/media/Main_Background.759f51bb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43b379d9.js",
+    "static/js/2.ae22b6c5.chunk.js",
+    "static/css/main.1a332369.chunk.css",
+    "static/js/main.2909240e.chunk.js"
+  ]
+}
