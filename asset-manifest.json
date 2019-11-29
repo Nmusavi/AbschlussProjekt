@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/AbschlussPrijekt.git/static/css/main.2f7bcea2.chunk.css",
+    "main.js": "/AbschlussPrijekt.git/static/js/main.e5012d76.chunk.js",
+    "main.js.map": "/AbschlussPrijekt.git/static/js/main.e5012d76.chunk.js.map",
+    "runtime-main.js": "/AbschlussPrijekt.git/static/js/runtime-main.ac65222c.js",
+    "runtime-main.js.map": "/AbschlussPrijekt.git/static/js/runtime-main.ac65222c.js.map",
+    "static/js/2.c7557b77.chunk.js": "/AbschlussPrijekt.git/static/js/2.c7557b77.chunk.js",
+    "static/js/2.c7557b77.chunk.js.map": "/AbschlussPrijekt.git/static/js/2.c7557b77.chunk.js.map",
+    "index.html": "/AbschlussPrijekt.git/index.html",
+    "precache-manifest.0f7457e981aa5b85e8d7fe9bcc8ba6bf.js": "/AbschlussPrijekt.git/precache-manifest.0f7457e981aa5b85e8d7fe9bcc8ba6bf.js",
+    "service-worker.js": "/AbschlussPrijekt.git/service-worker.js",
+    "static/css/main.2f7bcea2.chunk.css.map": "/AbschlussPrijekt.git/static/css/main.2f7bcea2.chunk.css.map",
+    "static/media/App.css": "/AbschlussPrijekt.git/static/media/Login_Background.d157c2d6.png",
+    "static/media/Main_Background.png": "/AbschlussPrijekt.git/static/media/Main_Background.759f51bb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac65222c.js",
+    "static/js/2.c7557b77.chunk.js",
+    "static/css/main.2f7bcea2.chunk.css",
+    "static/js/main.e5012d76.chunk.js"
+  ]
+}
