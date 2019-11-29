@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/AbschlussProjekt/static/css/main.5ae54629.chunk.css",
-    "main.js": "/AbschlussProjekt/static/js/main.9c85ff75.chunk.js",
-    "main.js.map": "/AbschlussProjekt/static/js/main.9c85ff75.chunk.js.map",
-    "runtime-main.js": "/AbschlussProjekt/static/js/runtime-main.7ed3142c.js",
-    "runtime-main.js.map": "/AbschlussProjekt/static/js/runtime-main.7ed3142c.js.map",
-    "static/js/2.3f2932a7.chunk.js": "/AbschlussProjekt/static/js/2.3f2932a7.chunk.js",
-    "static/js/2.3f2932a7.chunk.js.map": "/AbschlussProjekt/static/js/2.3f2932a7.chunk.js.map",
-    "index.html": "/AbschlussProjekt/index.html",
-    "precache-manifest.bbb19a152bac7cb408c812c3da40dc3b.js": "/AbschlussProjekt/precache-manifest.bbb19a152bac7cb408c812c3da40dc3b.js",
-    "service-worker.js": "/AbschlussProjekt/service-worker.js",
-    "static/css/main.5ae54629.chunk.css.map": "/AbschlussProjekt/static/css/main.5ae54629.chunk.css.map",
-    "static/media/App.css": "/AbschlussProjekt/static/media/Login_Background.d157c2d6.png",
-    "static/media/Main_Background.png": "/AbschlussProjekt/static/media/Main_Background.759f51bb.png"
+    "main.css": "/AbschlussPrijekt/build/static/css/main.4d37db50.chunk.css",
+    "main.js": "/AbschlussPrijekt/build/static/js/main.f75b2a16.chunk.js",
+    "main.js.map": "/AbschlussPrijekt/build/static/js/main.f75b2a16.chunk.js.map",
+    "runtime-main.js": "/AbschlussPrijekt/build/static/js/runtime-main.d5c5cd46.js",
+    "runtime-main.js.map": "/AbschlussPrijekt/build/static/js/runtime-main.d5c5cd46.js.map",
+    "static/js/2.5f34c07e.chunk.js": "/AbschlussPrijekt/build/static/js/2.5f34c07e.chunk.js",
+    "static/js/2.5f34c07e.chunk.js.map": "/AbschlussPrijekt/build/static/js/2.5f34c07e.chunk.js.map",
+    "index.html": "/AbschlussPrijekt/build/index.html",
+    "precache-manifest.796650727868162632ff5ef54c6f0964.js": "/AbschlussPrijekt/build/precache-manifest.796650727868162632ff5ef54c6f0964.js",
+    "service-worker.js": "/AbschlussPrijekt/build/service-worker.js",
+    "static/css/main.4d37db50.chunk.css.map": "/AbschlussPrijekt/build/static/css/main.4d37db50.chunk.css.map",
+    "static/media/App.css": "/AbschlussPrijekt/build/static/media/Login_Background.d157c2d6.png",
+    "static/media/Main_Background.png": "/AbschlussPrijekt/build/static/media/Main_Background.759f51bb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7ed3142c.js",
-    "static/js/2.3f2932a7.chunk.js",
-    "static/css/main.5ae54629.chunk.css",
-    "static/js/main.9c85ff75.chunk.js"
+    "static/js/runtime-main.d5c5cd46.js",
+    "static/js/2.5f34c07e.chunk.js",
+    "static/css/main.4d37db50.chunk.css",
+    "static/js/main.f75b2a16.chunk.js"
   ]
 }

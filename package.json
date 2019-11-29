@@ -1,9 +1,10 @@
 {
-  "homepage": "https://nmusavi.github.io/AbschlussProjekt/",
+  "homepage": "https://nmusavi.github.io/AbschlussPrijekt/build",
   "name": "abschluss-projekt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "build": "^0.1.4",
     "css-loader": "^3.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
