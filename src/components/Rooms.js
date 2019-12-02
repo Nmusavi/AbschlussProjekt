@@ -1,11 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-//import Users from '../Users'
-import { FiLogOut,FiSettings } from 'react-icons/fi';
-import { IoMdPerson ,IoMdArrowBack } from 'react-icons/io';
-import {MdSecurity,MdPeople} from 'react-icons/md'
-import Users from '../Users'
-
+import {IoMdArrowBack} from 'react-icons/io';
 
 
 class Rooms extends React.Component {
@@ -17,39 +12,54 @@ class Rooms extends React.Component {
   }
   render() { 
       return ( 
-          <div className='ProfileContainer'>
-              <section className='ProfilHead'>
+          <div className='RoomsContainer'>
+              <section className='RoomsHead'>
                   <article>
-                  <NavLink style={{color:'gray',fontSize:30}} className='back'  to='/Profile'><IoMdArrowBack/></NavLink>
+                  <NavLink style={{color:'gray',fontSize:30}} className='back'  to='/Dashboard'><IoMdArrowBack/></NavLink>
                       <h1>Meine Räume</h1>
                   </article>
               </section>
-              <div><img src={Users[0].Image} width="120" height="120"  alt=''/></div>
+                <div className='favoritlink'><NavLink style={link} to='/Rooms'>Meine Favoriten</NavLink></div>
              
-              <section className='ProfillistProfile'>
-                  <NavLink style={style} to='/Profile'><IoMdPerson className='iconprofile'/>Ihre Daten</NavLink>
-                  <NavLink style={style} to='/Profile'><MdSecurity className='iconprofile'/>Sicherheit</NavLink>
-                  <NavLink style={style} to='/Profile'><FiSettings className='iconprofile'/>Einstellungen</NavLink>
-                  <NavLink style={style} to='/Profile'><MdPeople className='iconprofile'/>Privatsphäre</NavLink>
+              <section className='RoomsCardContainer'>
+                  <div className='Anna'>
+                  <NavLink style={AnnaStyle} to='/Rooms'>Anna Musterfrau</NavLink>
+                  </div>
+                  
+                  <div className='Richard'>
+                  <NavLink style={RichardStyle} to='/List'>Richard Willms</NavLink>
+                    </div>
+                   
+                  
               </section>
-           <NavLink  className='dashLink' to='/login'><FiLogOut style={logout}/>Logout</NavLink>
+           <NavLink  className='AddRooms' to='/Rooms'>+</NavLink>
           </div>
        );
   }
 }
-const style ={
-    color:'white',
-    fontSize:20,
+const link ={
     textDecoration:'none',
-    marginBottom:45,
-    display: 'flex',
-    flexDirection: 'row',
-    
+    color: 'white',
+    fontWeight:'bold',
+    fontSize:20
+}
+const RichardStyle={
+    color:'white',
+    textDecoration:'none',
+    fontSize:27,
+    fontWeight:'bold',
+    marginLeft:48,
+    marginTop:49
+}
+const AnnaStyle={
+    color:'white',
+    textDecoration:'none',
+    fontSize:27,
+    fontWeight:'bold',
+    marginLeft:48,
+    marginTop:49
+}
 
-  
-}
-const logout={
-    marginRight:10
-}
+
 
 export default Rooms;

@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-//import Users from '../Users'
 import { FiHome,FiCalendar,FiMessageSquare,FiInfo,FiLogOut } from 'react-icons/fi';
 import { MdPeople } from 'react-icons/md';
 import Users from '../Users'
@@ -11,7 +10,6 @@ class Dashboard extends React.Component {
   constructor(props) {
       super(props);
       this.state = { 
-
        }
   }
   render() { 
@@ -34,8 +32,6 @@ class Dashboard extends React.Component {
                   <NavLink style={style} to='/Dashboard'><FiMessageSquare className='icon'/>Nachrichten</NavLink>
                   <NavLink style={style} to='/Dashboard'><FiInfo className='icon'/>Benachrichtigungen</NavLink>
               </section>
-
-           
            <NavLink  className='dashLink' to='/login'><FiLogOut style={logout}/>Logout</NavLink>
           </div>
        );
@@ -48,10 +44,8 @@ const style ={
     marginBottom:45,
     display: 'flex',
     flexDirection: 'row',
-
 }
 const logout={
     marginRight:10
 }
-
 export default Dashboard;

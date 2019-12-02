@@ -9,6 +9,8 @@ import Dutzen from './components/Dutzen'
 import Dashboard from './components/Dashboard'
 import Profile from './components/Profile'
 import Rooms from './components/Rooms'
+import Zeitstrahl from './components/Zeitstrahl'
+import List from './components/List'
 
 import {
   BrowserRouter,
@@ -31,6 +33,8 @@ function App() {
       <Route path="/Dashboard" component={Dashboard}/>
       <Route path="/Profile" component={Profile}/>
       <Route path="/Rooms" component={Rooms}/>
+      <Route path="/Zeitstrahl" component={Zeitstrahl}/>
+      <Route path="/List" component={List}/>
       </Switch>
     </BrowserRouter>
     

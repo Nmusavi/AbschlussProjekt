@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Users from '../Users'
 
+
 class Sitzen extends React.Component {
   constructor(props) {
       super(props);
@@ -16,11 +17,11 @@ class Sitzen extends React.Component {
                   <NavLink className='back'  to='/Herzlich'>&#60; Zurück </NavLink>
               </section>
               <section>
-                  <form className="Profilbildform">
+                  <form className="Profilbildform"> 
                       <article>
                       <h1>Hallo {Users.Name}</h1>
                       <p className='herzlich'>
-                        Möchten Sie ein Profilbild hinzufügen?
+                          Möchtest du ein Profilbild hinzufügen?
                       </p>
                       </article>
                       <article>

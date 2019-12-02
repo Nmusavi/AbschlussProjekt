@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-//import Users from '../Users'
 import { FiLogOut,FiSettings } from 'react-icons/fi';
 import { IoMdPerson ,IoMdArrowBack } from 'react-icons/io';
 import {MdSecurity,MdPeople} from 'react-icons/md'
@@ -44,9 +43,6 @@ const style ={
     marginBottom:45,
     display: 'flex',
     flexDirection: 'row',
-    
-
-  
 }
 const logout={
     marginRight:10
