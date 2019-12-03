@@ -11,6 +11,8 @@ import Profile from './components/Profile'
 import Rooms from './components/Rooms'
 import Zeitstrahl from './components/Zeitstrahl'
 import List from './components/List'
+import Patchwork from './components/Patchwork'
+import Message from './components/Message'
 
 import {
   BrowserRouter,
@@ -35,6 +37,11 @@ function App() {
       <Route path="/Rooms" component={Rooms}/>
       <Route path="/Zeitstrahl" component={Zeitstrahl}/>
       <Route path="/List" component={List}/>
+      <Route path="/Patchwork" component={Patchwork}/>
+      <Route path="/Message" component={Message}/>
+
+
+
       </Switch>
     </BrowserRouter>
     

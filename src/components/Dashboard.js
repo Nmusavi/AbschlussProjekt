@@ -29,7 +29,7 @@ class Dashboard extends React.Component {
                   <NavLink style={style} to='/Profile'><FiHome className='icon'/>Profil</NavLink>
                   <NavLink style={style} to='/Dashboard'><MdPeople className='icon'/>Raum beitreten</NavLink>
                   <NavLink style={style} to='/Rooms'><FiCalendar className='icon'/>Meine Räume</NavLink>
-                  <NavLink style={style} to='/Dashboard'><FiMessageSquare className='icon'/>Nachrichten</NavLink>
+                  <NavLink style={style} to='/Message'><FiMessageSquare className='icon'/>Nachrichten</NavLink>
                   <NavLink style={style} to='/Dashboard'><FiInfo className='icon'/>Benachrichtigungen</NavLink>
               </section>
            <NavLink  className='dashLink' to='/login'><FiLogOut style={logout}/>Logout</NavLink>

@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/AbschlussPrijekt/build/static/css/main.655f448a.chunk.css",
-    "main.js": "/AbschlussPrijekt/build/static/js/main.04d91583.chunk.js",
-    "main.js.map": "/AbschlussPrijekt/build/static/js/main.04d91583.chunk.js.map",
-    "runtime-main.js": "/AbschlussPrijekt/build/static/js/runtime-main.d5c5cd46.js",
-    "runtime-main.js.map": "/AbschlussPrijekt/build/static/js/runtime-main.d5c5cd46.js.map",
-    "static/js/2.23d605a8.chunk.js": "/AbschlussPrijekt/build/static/js/2.23d605a8.chunk.js",
-    "static/js/2.23d605a8.chunk.js.map": "/AbschlussPrijekt/build/static/js/2.23d605a8.chunk.js.map",
-    "index.html": "/AbschlussPrijekt/build/index.html",
-    "precache-manifest.0880ed37c2c801d51771c747e0646f4f.js": "/AbschlussPrijekt/build/precache-manifest.0880ed37c2c801d51771c747e0646f4f.js",
-    "service-worker.js": "/AbschlussPrijekt/build/service-worker.js",
-    "static/css/main.655f448a.chunk.css.map": "/AbschlussPrijekt/build/static/css/main.655f448a.chunk.css.map",
-    "static/media/App.css": "/AbschlussPrijekt/build/static/media/Richard.eb000a12.png",
-    "static/media/Main_Background.png": "/AbschlussPrijekt/build/static/media/Main_Background.759f51bb.png"
+    "main.css": "/AbschlussProjekt/static/css/main.bc96d80e.chunk.css",
+    "main.js": "/AbschlussProjekt/static/js/main.b2e2de0b.chunk.js",
+    "main.js.map": "/AbschlussProjekt/static/js/main.b2e2de0b.chunk.js.map",
+    "runtime-main.js": "/AbschlussProjekt/static/js/runtime-main.7ed3142c.js",
+    "runtime-main.js.map": "/AbschlussProjekt/static/js/runtime-main.7ed3142c.js.map",
+    "static/js/2.088f54f2.chunk.js": "/AbschlussProjekt/static/js/2.088f54f2.chunk.js",
+    "static/js/2.088f54f2.chunk.js.map": "/AbschlussProjekt/static/js/2.088f54f2.chunk.js.map",
+    "index.html": "/AbschlussProjekt/index.html",
+    "precache-manifest.6b2da4da52881f452bdf2516dc9124f0.js": "/AbschlussProjekt/precache-manifest.6b2da4da52881f452bdf2516dc9124f0.js",
+    "service-worker.js": "/AbschlussProjekt/service-worker.js",
+    "static/css/main.bc96d80e.chunk.css.map": "/AbschlussProjekt/static/css/main.bc96d80e.chunk.css.map",
+    "static/media/App.css": "/AbschlussProjekt/static/media/Richard.eb000a12.png",
+    "static/media/Main_Background.png": "/AbschlussProjekt/static/media/Main_Background.759f51bb.png",
+    "static/media/Messages.png": "/AbschlussProjekt/static/media/Messages.8e00f9d1.png",
+    "static/media/patchwork.png": "/AbschlussProjekt/static/media/patchwork.47811919.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5c5cd46.js",
-    "static/js/2.23d605a8.chunk.js",
-    "static/css/main.655f448a.chunk.css",
-    "static/js/main.04d91583.chunk.js"
+    "static/js/runtime-main.7ed3142c.js",
+    "static/js/2.088f54f2.chunk.js",
+    "static/css/main.bc96d80e.chunk.css",
+    "static/js/main.b2e2de0b.chunk.js"
   ]
 }

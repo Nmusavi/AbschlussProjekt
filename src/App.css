@@ -26,6 +26,9 @@
         border-radius:30px;
     }
 }
+.Gallerie{
+    width: 100vw;
+}
 .ZeitstrahlPlus{
     text-decoration: none;
     font-size: 30px;
@@ -109,10 +112,13 @@
 }
 
 .Patchwork{
+    text-decoration: none;
+    font-weight: bold;
     color:white;
     margin-right: 10vw;
     margin-top: 8vh;
     font-size: 2em;
+
 }
 .ListPatchwork{
     background-color: rgb(254, 200, 32);

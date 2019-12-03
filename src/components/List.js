@@ -26,7 +26,7 @@ class List extends React.Component {
                                   
                             </section>
                            
-                             <h1 className='Patchwork'>Patchwork</h1>
+                             <NavLink className='Patchwork' to='/Patchwork'>Patchwork</NavLink>
                            
                         </section>
                   <article>

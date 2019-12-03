@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import {IoMdArrowBack} from 'react-icons/io';
-import Card from './Card';
-import ZeitstrahlData from './ZeitstrahlData'
+import Gallerie from '../patchwork.png'
 
 
-class Zeitstrahl extends React.Component {
+
+class Patchwork extends React.Component {
   constructor(props) {
       super(props);
       this.state = { 
@@ -19,15 +19,11 @@ class Zeitstrahl extends React.Component {
                   <article>
                   <NavLink style={{color:'gray',fontSize:30}} className='back'  to='/List'><IoMdArrowBack/></NavLink>
                       <h1>Richard Willms</h1>
-                      <p>Zeitstrahl</p>
+                      <p>Patchwork</p>
                   </article>
               </section>
               <section className='CardContainer'>
-                    {ZeitstrahlData.map((Data)=>{
-                        return(
-                        <Card key={Data.id} img={Data.img} Name={Data.Name}/>
-                        );
-                    })}
+                <img className='Gallerie' src={Gallerie} alt=''/>
               
                 
                </section>
@@ -41,4 +37,4 @@ class Zeitstrahl extends React.Component {
 }
 
 
-export default Zeitstrahl;
+export default Patchwork;
